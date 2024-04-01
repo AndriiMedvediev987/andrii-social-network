@@ -1,4 +1,10 @@
-const fns = require('date-fns');
-const { parse, format, formatDistance, formatRelative, subDays } = require('date-fns');
+const fns = require("date-fns");
+const {
+  parse,
+  format,
+  formatDistance,
+  formatRelative,
+  subDays,
+} = require("date-fns");
 
-module.exports = {fns, parse, format, formatDistance, formatRelative, subDays};
+module.exports = { fns };

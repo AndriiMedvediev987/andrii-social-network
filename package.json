@@ -1,7 +1,7 @@
 {
   "name": "andrii-social-network",
   "version": "1.0.0",
-  "description": "",
+  "description": "Social network demo",
   "main": "index.js",
   "scripts": {
     "start": "node index",
