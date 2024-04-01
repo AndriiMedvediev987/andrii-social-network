@@ -47,7 +47,8 @@ module.exports = {
         thoughtText: req.body.thoughtText,
         username: req.body.username,
       };
-      const thought = await Thought.create(data);
+
+      const thought = await Thought.create(req.body);
       res.json(thought);
     } catch (err) {
       console.error(err);

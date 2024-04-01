@@ -30,9 +30,9 @@ const thoughtSchema = new Schema(
   {
     timestamps: true,
     toJSON: {
-      getters: true,
+      virtuals: true,
     },
-    _id: false,
+    id: false,
   }
 );
 
